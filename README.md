@@ -1,1 +1,1 @@
-Projetos do cruso Design-responsivo-para-a-web do FreeCodeCamp
+Projetos do curso Design responsivo para a web do FreeCodeCamp
