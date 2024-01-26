@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação Java</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>Documentação Java</h1>
+        </header>
+        <ul>
+            <li><a class="nav-link" href="#Introdução">Introdução</a></li>
+            <li><a class="nav-link" href="#Hello_world">Hello World</a></li>
+            <li><a class="nav-link" href="#Tipos_e_variáveis">Tipos e variáveis</a></li>
+            <li><a class="nav-link" href="#Operadores_Aritméticos">Operadores Aritméticos</a></li>
+            <li><a class="nav-link" href="#Operadores_Relacionais">Operadores Relacionais</a></li>
+            <li><a class="nav-link" href="#Operadores_Lógicos">Operadores Lógicos</a></li>
+            <li><a class="nav-link" href="#If...Else">If...Else</a></li>
+            <li><a class="nav-link" href="#Laço_While">Laço While</a></li>
+            <li><a class="nav-link" href="#Referências">Referências</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="Introdução" class="main-section">
+            <header>
+                Introdução
+            </header>
+            <article>
+                <p>Java é uma linguagem de programação simples e fácil de entender, pois não contém complexidades que
+                    existiam em linguagens de programação anteriores.Na verdade, a simplicidade era o objetivo do design
+                    dos povos Javasoft, porque ele tem que funcionar em dispositivos eletrônicos onde menos
+                    memória/recursos estão disponíveis.</p>
+                <p>Java é uma linguagem de Programação Orientada a Objetos. Isso significa que em Java tudo é escrito em
+                    termos de CLASSES e OBJETOS.</p>
+            </article>
+        </section>
+        <section id="Hello_world" class="main-section">
+            <header>
+               Hello world
+            </header>
+            <article>
+                <p>O programa "Hello, World" é usado tradicionalmente para introduzir uma linguagem de programação. Este
+                    é para Java:</p>
+                <div class="container-code">
+                    <code>public class Main</code>
+                    <code>{</code>
+                    <code>public static void main(String[] args){</code>
+                    <code>&nbsp;&nbsp;System.out.println("Hello World");</code>
+                    <code>}</code>
+                    <code>}</code>
+                </div>
+            </article>
+        </section>
+        <section id="Tipos_e_variáveis" class="main-section">
+            <header>
+               Tipos e variáveis
+            </header>
+            <article>
+                <p>No Java, existem algumas palavras reservadas, para a representação dos tipos de dados básicos, que
+                    precisam ser manipulados, para a construção de programas. Estes tipos de dados são conhecidos como
+                    tipos primitivos (Primitive Types). São eles:</p>
+                <ul>
+                    <li><code>byte</code></li>
+                    <li><code>short</code></li>
+                    <li><code>int</code></li>
+                    <li><code>long</code></li>
+                    <li><code>boolean</code></li>
+                    <li><code>char</code></li>
+                    <li><code>float</code></li>
+                    <li><code>double</code></li>
+                </ul>
+                <p>Exemplo:</p>
+                <div class="container-code">
+                    <code>int teste = 3; //declara variável "teste" do tipo inteiro igual á 3</code>
+                </div>
+            </article>
+        </section>
+        <section id="Operadores_Aritméticos" class="main-section">
+            <header>
+             Operadores Aritméticos
+            </header>
+            <article>
+                <p>O operador aritmético, é utilizado para realizar operações matemáticas entre valores numéricos,
+                    podendo
+                    se tornar ou não uma expressão mais complexa.</p>
+                <p>Os operadores aritméticos são: + (adição), - (subtração), * (multiplicação) e / (divisão).</p>
+                <div class="container-code">
+                    <code>double soma = 10.5 + 15.7;</code>
+                    <code>int subtração = 113 - 25;</code>
+                    <code>int multiplicacao = 20 * 7;</code>
+                    <code>int divisao = 15 / 3;</code>
+                    <code>int modulo = 18 % 3;</code>
+                    <code>double resultado = (10 * 7) + (20/4);</code>
+                </div>
+            </article>
+        </section>
+        <section id="Operadores_Relacionais" class="main-section">
+            <header>
+                Operadores Relacionais
+            </header>
+            <article>
+                <p>Os operadores relacionais, avaliam a relação entre duas variáveis ou expressões. Neste caso, mais
+                    precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior,
+                    maior
+                    ou igual ao da direita, retornando um valor booleano como resultado.</p>
+                <p>Os operadores relacionais são:</p>
+                <ul>
+                    <li><code class="code-rel">==</code> Quando desejamos verificar se uma variável é IGUAL A outra.
+                    </li>
+                    <li><code class="code-rel">!=</code> Quando desejamos verificar se uma variável é DIFERENTE da
+                        outra.</li>
+                    <li><code class="code-rel"> ></code>Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+                    </li>
+                    <li><code class="code-rel">>=</code>Quando desejamos verificar se uma variável é MAIOR OU IGUAL a
+                        outra.</li>
+                    <li><code class="code-rel"><</code>Quando desejamos verificar se uma variável é MENOR QUE outra.
+                    </li>
+                    <li><code class="code-rel" class="code-rel"><=</code>Quando desejamos verificar se uma variável é
+                        MENOR OU IGUAL a
+                        outra.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="Operadores_Lógicos" class="main-section">
+            <header>
+                Operadores Lógicos
+            </header>
+            <article>
+                <p>Os operadores lógicos, representam o recurso que nos permite criar expressões lógicas maiores, a
+                    partir da junção de duas ou mais expressões.</p>
+                <p>Os 2 tipos de operadores lógicos são:</p>
+                <ul>
+                    <li><code class="code-rel">&&</code>Operador Lógico "E"</li>
+                    <li><code class="code-rel">||</code>Operador Lógico "OU"</li>
+                </ul>
+            </article>
+        </section>
+        <section id="If...Else" class="main-section">
+            <header>
+               If...Else
+            </header>
+            <article>
+                <p>É uma estrutura de controle de fluxo que permite que um programa tome decisões com base em
+                    determinadas condições. Ela consiste em um bloco if, que é executado se uma condição especificada
+                    for verdadeira, e um bloco else opcional, que é executado se a condição for falsa.</p>
+                <div class="container-code">
+                    <code>se (condição) {</code>
+                    <code>   // código a ser executado se a condição for verdadeira</code>
+                    <code>} else {</code>
+                    <code>    // código a ser executado se a condição for falsa</code>
+                    <code></code>
+                </div>
+            </article>
+        </section>
+        <section id="Laço_While" class="main-section">
+            <header>
+                Laço While
+            </header>
+            <article>
+                <p>O laço while (na tradução literal para a língua portuguesa “enquanto”) determina que, enquanto uma
+                    condição for válida, o bloco de código será executado. O laço while, testa a condição antes de
+                    executar o código, logo, caso a condição seja inválida no primeiro teste o bloco nem será executado.
+                </p>
+                <p>A estrutura de sintaxe, do controle de repetição while:</p>
+                <div class="container-code">
+                    <code>//estrutura do controle de fluxo while</code>
+                    <code>while (expressão booleana de validação){</code>
+                    <code>&nbsp;&nbsp;// comando que será executado até que a </code>
+                    <code>&nbsp;&nbsp;// expressão de validação torne-se falsa </code>
+                    <code></code>
+                    <code>}</code>
+                </div>
+            </article>
+        </section>
+        <section id="Referências" class="main-section">
+            <header>
+                Referências
+            </header>
+            <article>
+                <p><a href="https://glysns.gitbook.io/java-basico/controle-de-fluxo/estruturas-de-repeticao"
+                        target="_blank">Para obter mais informações sobre a Documentação Java, clique aqui.</a></p>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
